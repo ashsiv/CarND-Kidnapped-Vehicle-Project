@@ -1,6 +1,6 @@
 # End to End Sparse Localizer
 
-This project highlights the implementation of an End to End sparse localization of a vehicle in C++.
+This project highlights the implementation of an end to end sparse localization of a vehicle in C++.
 
 ![Image cropped to region of interest](https://github.com/ashsiv/End-to-End-Vehicle-Localizer/blob/master/images/Main.JPG)
 
