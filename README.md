@@ -60,7 +60,7 @@ discrete_distribution<int> distribution(wts.begin(),wts.end());
 ```
 ## Results
 
-The particle with the heighest weight is assigned as the best particle that matches the vehicle location.
+The particle with the heighest weight is assigned as the best particle that matches the vehicle location. The filter is evaluated using a threshold variable for accuracy set in main.cpp under the src directory.
 
 [Output Video.mp4](https://github.com/ashsiv/End-to-End-Vehicle-Localizer/blob/master/images/Output%20video.mp4)
 
