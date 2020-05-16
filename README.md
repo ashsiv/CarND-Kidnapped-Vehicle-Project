@@ -55,8 +55,11 @@ A discrete distribution function in C++ is used.
 ```
 discrete_distribution<int> distribution(wts.begin(),wts.end());
 ```
+## Results
+
 The particle with the heighest weight is assigned as the best particle that matches the vehicle location.
 ![Image cropped to region of interest](https://github.com/ashsiv/End-to-End-Vehicle-Localizer/blob/master/images/Output.JPG)
+
 ## Running the Code
 
 This repository includes two files that can be used to set up and install uWebSocketIO for either Linux or Mac systems. For windows you can use either Docker, VMware, or even Windows 10 Bash on Ubuntu to install uWebSocketIO.
