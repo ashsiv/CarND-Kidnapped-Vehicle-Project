@@ -1,4 +1,4 @@
-# End to End Vehicle Localizer
+# End to End Sparse Localizer
 
 This project highlights the implementation of an End to End sparse localization of a vehicle in C++.
 
