@@ -1,5 +1,6 @@
 # End to End Vehicle Localizer
-This project highlights the implementation of an End to End sparse localization for a vehicle based on a given map with landmarks.
+
+This project highlights the implementation of an End to End sparse localization of a vehicle in C++.
 
 ![Image cropped to region of interest](https://github.com/ashsiv/End-to-End-Vehicle-Localizer/blob/master/images/Main.JPG)
 
@@ -9,7 +10,7 @@ As seen in the above image, the blue circle (denoting the vehicle location estim
 The inputs to the sparse localizer are 
 1. Initial noisy GPS estimate of the initial location of the vehicle.
 2. Map of the initial GPS estimate location
-3. Noisy sensor/control data (velocity and yaw rate), observations at each time step.
+3. Noisy sensor/control data (velocity and yaw rate), observations (LIDAR sensor) at each time step.
 
 Using the above information, a 2 dimensional particle filter is implemented in C++ to estimate the location of the vehicle.
 
@@ -60,7 +61,9 @@ discrete_distribution<int> distribution(wts.begin(),wts.end());
 ## Results
 
 The particle with the heighest weight is assigned as the best particle that matches the vehicle location.
+
 [Output Video.mp4](https://github.com/ashsiv/End-to-End-Vehicle-Localizer/blob/master/images/Output%20video.mp4)
+
 ![Image cropped to region of interest](https://github.com/ashsiv/End-to-End-Vehicle-Localizer/blob/master/images/Output.JPG)
 
 ## Running the Code
