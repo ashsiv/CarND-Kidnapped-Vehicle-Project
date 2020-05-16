@@ -60,7 +60,7 @@ discrete_distribution<int> distribution(wts.begin(),wts.end());
 ## Results
 
 The particle with the heighest weight is assigned as the best particle that matches the vehicle location.
-[Output Video.mp4](https://github.com/ashsiv/End-to-End-Vehicle-Localizer/blob/master/images/Output video.mp4)
+[Output Video.mp4](https://github.com/ashsiv/End-to-End-Vehicle-Localizer/blob/master/images/Output%20video.mp4)
 ![Image cropped to region of interest](https://github.com/ashsiv/End-to-End-Vehicle-Localizer/blob/master/images/Output.JPG)
 
 ## Running the Code
