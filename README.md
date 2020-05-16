@@ -4,7 +4,7 @@ This project highlights the implementation of an End to End sparse localization 
 
 ![Image cropped to region of interest](https://github.com/ashsiv/End-to-End-Vehicle-Localizer/blob/master/images/Main.JPG)
 
-As seen in the above image, the blue circle (denoting the vehicle location estimate) falls right on top of the ground truth location (car symbol).
+
 ## Project Introduction
 
 The inputs to the sparse localizer are 
